@@ -1,1 +1,3 @@
 This folder contains Python code
+
+curl -X POST "https://dash-langsvc2023.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview" -H "Ocp-Apim-Subscription-Key: 7857af6e57244133825d5bdfe869e682"  -H "Apim-Request-Id: 4ffcac1c-b2fc-48ba-bd6d-b69d9942995a" -H "Content-Type: application/json" -d "{\"kind\":\"Conversation\",\"analysisInput\":{\"conversationItem\":{\"id\":\"1\",\"text\":\"what's the time in Mumbai\",\"modality\":\"text\",\"language\":\"EN\",\"participantId\":\"1\"}},\"parameters\":{\"projectName\":\"Clock\",\"verbose\":true,\"deploymentName\":\"prod-clock\",\"stringIndexType\":\"TextElement_V8\"}}"
